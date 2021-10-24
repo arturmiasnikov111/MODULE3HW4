@@ -50,13 +50,14 @@ namespace MODULE3HW4
             var orderby = data.OrderBy(x => x.Age);
             var any = data.Any(x => x.LastName == "Petrov" && x.Age > 15);
             var dist = data.GroupBy(x => x.Age < 25);
+            print(data);
         }
 
         public void print(IEnumerable<User> items)
         {
             foreach (var item in items)
             {
-                Console.WriteLine($"{item.Id} : {item.FirstName} : {item.LastName} : {item.Age} : {item.Number}");}
+                Console.WriteLine($"{User.Id} : {item.FirstName} : {item.LastName} : {item.Age} : {item.Number}");}
             }
         }
     }

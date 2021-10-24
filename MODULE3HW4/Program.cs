@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using MODULE3HW4.delegateTasl;
 
 namespace MODULE3HW4
 {
@@ -8,7 +9,11 @@ namespace MODULE3HW4
         static void Main(string[] args)
         {
             var startLinq = new StarterLinq();
-            startLinq.Run();
+            //startLinq.Run();
+
+            var starterDelegat = new StarterDelegat();
+            starterDelegat.Run();
+
         }
     }
 }
