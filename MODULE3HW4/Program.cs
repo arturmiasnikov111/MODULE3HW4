@@ -9,10 +9,10 @@ namespace MODULE3HW4
         static void Main(string[] args)
         {
             var startLinq = new StarterLinq();
-            //startLinq.Run();
+            startLinq.Run();
 
             var starterDelegat = new StarterDelegat();
-            starterDelegat.Run();
+            //starterDelegat.Run();
 
         }
     }

@@ -57,7 +57,7 @@ namespace MODULE3HW4
         {
             foreach (var item in items)
             {
-                Console.WriteLine($"{User.Id} : {item.FirstName} : {item.LastName} : {item.Age} : {item.Number}");}
+                Console.WriteLine($"{item.UniqueNumber} : {item.FirstName} : {item.LastName} : {item.Age} : {item.Number}");}
             }
         }
     }
