@@ -1,3 +1,5 @@
+using System;
+
 namespace MODULE3HW4.delegateTasl
 {
     public class StarterDelegat
@@ -9,10 +11,15 @@ namespace MODULE3HW4.delegateTasl
             
             massContainer.CounterIsTooBig += mathMethods.Sum;
             massContainer.CounterIsTooBig += mathMethods.Sum;
-            
+
             for (int i = 0; i < 10; i++)
             {
                 massContainer.Multiply(5);
+            }
+            
+            foreach (var item in mathMethods.results)
+            {
+                Console.WriteLine(item);
             }
         }
         

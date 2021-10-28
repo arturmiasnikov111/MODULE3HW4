@@ -7,7 +7,7 @@ namespace MODULE3HW4.delegateTasl
     {
 
         private int SumCallsCount = 1;
-        private List<int> results;
+        public List<int> results { get; set; }
 
         public MathMethods()
         {
